@@ -1,0 +1,22 @@
+/* In src/style.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f7f6; /* A light gray background */
+  color: #333;
+}
+
+/* This is our main container rule! */
+.app-container {
+  max-width: 1440px;
+  margin: 0 auto; /* This centers it! */
+  padding: 0 1.5rem; /* Some space on the sides */
+  min-height: 100vh; /* Make it fill the screen */
+  display: flex;
+  flex-direction: column;
+}
+
+/* We'll wrap our page content in this */
+.content-wrap {
+  flex: 1; /* This pushes the footer down */
+}
